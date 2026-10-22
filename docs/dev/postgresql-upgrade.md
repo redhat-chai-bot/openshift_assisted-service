@@ -35,8 +35,8 @@ Each sclorg image can only upgrade from `POSTGRESQL_PREV_VERSION`. ACM EUS skips
 | 2.15 → 2.16 | PG12 | PG13 | 12 → 13 |
 | 2.16 → 2.17 | PG13 | PG15 | 13 → 15 |
 | 2.15 → 2.17 | PG12 | PG15 | 12 → 13 → 15 |
-| 2.16 → 2.18 | PG13 | PG16 | 13 → 15 → 16 |
-| 2.15 → 2.18 | PG12 | PG16 | 12 → 13 → 15 → 16 |
+| 2.16 → 5.0 | PG13 | PG16 | 13 → 15 → 16 |
+| 2.15 → 5.0 | PG12 | PG16 | 12 → 13 → 15 → 16 |
 
 The operator therefore adds **init containers** for every hop strictly older than `DATABASE_IMAGE`:
 
